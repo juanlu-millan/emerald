@@ -1,6 +1,5 @@
 ---
 title: Presentación del Blog
-tags: ["Presentación"]
 ---
 # Presentación del Blog
 Me presento, mi nombre es Juan Luis Millán y soy el creador de este blog, Actualmente estoy cursando los estudios de Administración de Sistemas Informáticos en Red en el IES Gonzalo Nazareno (Dos Hermanas).
