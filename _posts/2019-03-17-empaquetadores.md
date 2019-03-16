@@ -1,6 +1,6 @@
 ---
-title: Aplicación de Escritorio - Trello en Debian
-tags: ["Trello","Aplicación"]
+title: Empaquetadores,Compresores y Descompresores
+tags: ["Empaquetadores","Compresores","Descompresores"]
 ---
 
 Existen distintas maneras de agrupar ficheros,imágenes o programas, veremos una gran variedad de formatos y sus opciones para hacerlo de manera óptima.
