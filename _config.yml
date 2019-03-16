@@ -1,11 +1,11 @@
 # Site settings
-title: Juanlu | A simple Jekyll blog
+title: Quest TIC
 description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+url: "https://juanlu-millan.github.io/QuestTIC/"
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "Juan Luis Millán Hidalgo"
+  email: ""
+  url: "https://juanlu-millan.github.io/QuestTIC/#"
 
 # Build settings
 baseurl: /emerald/ # Change this to your relative path (ex: /blog/), or leave just a /
