@@ -1,5 +1,5 @@
 ---
-title: Aplicación de Escritorio: Trello en Debian
+title: Aplicación de Escritorio - Trello en Debian
 tags: ["Trello","Aplicación"]
 ---
 
