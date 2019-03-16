@@ -1,6 +1,5 @@
 ---
 title: Presentación del Blog
-date: 2019-03-13T13:28:00Z
 tags: ["Presentación"]
 ---
 # Presentación del Blog
