@@ -1,6 +1,5 @@
 ---
 title: Empaquetadores,Compresores y Descompresores
-date: 2019-03-14T11:34:00Z
 tags: ["Empaquetadores","Compresores","Descompresores"]
 ---
 
