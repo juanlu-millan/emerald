@@ -8,7 +8,7 @@ author:
   url: "https://juanlu-millan.github.io/QuestTIC/#"
 
 # Build settings
-baseurl: /emerald/ # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /QuestTIC/ # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
