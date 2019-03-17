@@ -63,7 +63,7 @@
 #menu {
   height: 4px;
   width: 1.5em;
-  background-color: lighten($text-color, 35%);
+  background-color: #d9d9d9;
   margin-top: 8px;
   &:after, &:before {
     content: "";
