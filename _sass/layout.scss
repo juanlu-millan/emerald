@@ -36,6 +36,7 @@ a {
 
 #nav.menu-open {
   @include open(-14rem);
+  width: 30%;
 }
 
 #nav-left.menu-open-left {
