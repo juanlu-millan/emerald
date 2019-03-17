@@ -13,7 +13,7 @@ a {
       font-size: 1em;
     }
     &:hover {
-      background-color: #text-color;
+      background-color: $text-color;
     }
   }
   span {
@@ -50,7 +50,7 @@ a {
   width: 5rem;
   height: 1px;
   margin: 23px auto;
-  background-color: #d9d9d9;
+  background-color: #fff;
 }
 
 /* Icon menu */
