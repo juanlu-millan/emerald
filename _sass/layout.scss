@@ -37,12 +37,13 @@ a {
 
 #nav.menu-open {
   @include open(-14rem);
-  width: 30%;
 }
 
 #nav-left.menu-open-left {
   @include open(14rem);
-  width: 30%;
+}
+#menu-open{
+width: 300px;
 }
 
 /* Separator after menu */
