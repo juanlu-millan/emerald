@@ -38,11 +38,11 @@ a {
 /* Toggle class to open menu */
 
 #nav.menu-open {
-  @include open(-14rem);
+  @include open(-12rem);
 }
 
 #nav-left.menu-open-left {
-  @include open(14rem);
+  @include open(12rem);
 }
 
 
