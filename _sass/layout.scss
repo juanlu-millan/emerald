@@ -1,18 +1,18 @@
 /* -- General Layout -- */
 
 /* Navigation */
-
-#nav, #nav-left {
-nav{
+.nav{
  	width: 300px;
 	}
+#nav, #nav-left {
+
 a {
     display: block;
     color: #d9d9d9;
     padding: 0.33334em 0;
-    font-size: 1.5em;
-    font-weight: 400;
-    @media (min-width: 1940px) {
+    font-size: 2.5em;
+    font-weight: 600;
+    @media (min-width: 940px) {
       font-size: 1em;
     }
     &:hover {
