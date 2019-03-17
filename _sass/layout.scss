@@ -138,7 +138,8 @@ a {
   p {
   	font-family: 'Signika', sans-serif; //Emerald logo font
 	font-weight: 600;
-	color: $text-color;  
+	color: $text-color;
+	font-size: small;
   }
   &:after {
   	display: block;
