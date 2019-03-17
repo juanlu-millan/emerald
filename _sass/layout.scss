@@ -121,7 +121,7 @@
 	text-align: center;
 	padding: 24px 0;
 	position: relative;
-	background-color: #000000
+	background-color: #000000;
   a {
   	text-decoration: none;
   	color: $text-color;
@@ -135,7 +135,7 @@
   p {
   	font-family: 'Signika', sans-serif; //Emerald logo font
 	font-weight: 600;
-	color: $background-color  
+	color: $background-color;  
   }
   &:after {
   	display: block;
