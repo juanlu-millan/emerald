@@ -119,8 +119,9 @@
 
 #header {
 	text-align: center;
-  padding: 24px 0;
-  position: relative;
+	padding: 24px 0;
+	position: relative;
+	color: $main-color
   a {
   	text-decoration: none;
   	color: $text-color;
@@ -131,7 +132,7 @@
   	margin: 0 auto;
   	display: block;
   }
-  h1 {
+  p {
   	font-family: 'Signika', sans-serif; //Emerald logo font
     font-weight: 600;
   }
