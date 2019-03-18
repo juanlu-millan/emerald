@@ -1,5 +1,5 @@
 ---
-layout: Contacto
+layout: page
 title: Contacto
 ---
 ## Contacto
