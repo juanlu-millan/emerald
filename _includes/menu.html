@@ -1,17 +1,11 @@
 <nav {% if site.reverse == true %}id="nav-left"{% else %}id="nav"{% endif %}>
 	<div id="nav-list">
 		<a href="{{ site.baseurl }}">Home</a>
-
+		<a href="{{ site.baseurl }}">Categorías</a>
 		<!-- Nav pages -->
 	  {% for page in site.pages %}
 	    {% if page.layout == "page" %}
 	      <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
-	    {% endif %}
-	  {% endfor %}
-	  
-		{% for page in site.pages %}
-	    {% if page.layout == "page" %}
-	      <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">Categorías</a>
 	    {% endif %}
 	  {% endfor %}
     
