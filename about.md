@@ -4,6 +4,8 @@ title: Contacto
 ---
 ## Contacto
 
+![Foto Perfil](/img-post/fotoperfil.jpg)
+
 #### Twitter: 
 <https://twitter.com/JuanLuis_M_H>
 #### Correo: 
