@@ -248,6 +248,30 @@ code {
   color: lighten($text-color, 35%);
   background-color: lighten($background-color, 35%);
 }
+.box {
+    overflow: hidden;
+}
+
+.content {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.left .content {
+    border-right: 5px solid #4BB495  ;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
 
