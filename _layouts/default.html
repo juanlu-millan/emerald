@@ -23,14 +23,24 @@
 
     <!-- Main content -->
 	  <div id="container"> 
-		<nav class="contenedor">
-			<p>hola</p>
-		</nav>
-		  <main>
+		
+		     <div class="box">
+            <div class="left">
+                <div class="content">
+                    En un lugar de la Mancha (...) verdad. 
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                	<main>
 			
-			{{ content }}
+				{{ content }}
 
-	  </main>
+	  		</main>
+                </div>
+            </div>
+        </div>
+
 		
 		  <!-- Pagination links -->
       {% if paginator.total_pages > 1 %}
