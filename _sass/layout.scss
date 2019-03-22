@@ -261,17 +261,17 @@ code {
 
 .left {
     float: left;
-    width: 15%;
+    width: 85%;
 }
 
-.left .content {
+/*.left .content {
     border-right: 5px solid #222;
     height: 100%;
-}
+}*/
 
 .right {
     float: right;
-    width: 85%;
+    width: 15%;
 }
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
