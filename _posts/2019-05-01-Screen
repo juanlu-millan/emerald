@@ -1,0 +1,128 @@
+---
+title: Trabajando con Screen
+tags: ["Screen","Debian"]
+---
+
+Screen es una herramienta en la que puedes crear ventanas y sesiones de trabajo pero con la diferencia de que puedes hacerlo en una misma terminal, es una de las mejores herramientas para trabajar con servidores.
+
+
+## ¿Que forma el Screen?
+Un Screen se puede diferenciar en 3 partes:
+
+Sesión → Zona de trabajo que se crea al iniciar screen
+
+Ventana→ Es una terminal dentro de la sesión, pueden existir varias ventanas en una misma sesión.
+
+Región→ Es una ventana dividida, es decir, una región es una ventana dentro de otra ventana.
+
+Split→Es una parte de la región a dividir una sesión.
+
+## Instalar e iniciar sesión
+
+Si screen no viene instalado por defecto deberemos ejecutar el comando apt-get install screen o  yum install screen según la distribución.
+
+Para crear una sesión de Screen utilizaremos screen o screen -s nombre en el caso de asignarle un nombre para identificarla mejor.
+
+Podemos tener varias sesiones activas para ver la lista usamos el comando screen -r o screen -ls y conectarte con screen -r PID (número asignado al screen)
+
+## Manejo de Ventanas
+
+ctrl-a ?
+
+Ayuda con algunas funciones.
+
+ctrl-a c
+
+Crear una nueva ventana (sin nombre).
+
+ctrl-a ctrl-n
+
+Cambiar a la Siguiente o Anterior terminal.
+
+ctrl-a [0-9]
+
+Cambia a la terminal seleccionada.
+
+ctrl-a ”
+
+Lista navegable de terminales en funcionamiento.
+
+ctrl-a ctrl-d
+
+Desconectar y dejar la sesión en funcionamiento.
+
+ctrl-a x
+
+Bloquear todas las terminales con una clave.
+
+
+## Moverse por el screen
+
+
+ctrl-a S
+
+Divide horizontalmente.
+
+ctrl-a tab
+
+Salta a la siguiente zona.
+
+ctrl-a X
+
+Cerrar la zona actual.
+
+ctrl-a Q
+
+Cerrar todas las zonas excepto la actual.
+
+## Utilidades
+ctrl+a H
+
+Permite guardar el historial de comandos realizados por una ventana screen.
+
+ctrl+a :wall (mensaje)
+
+Envía el mensaje a todas las ventanas de la sesión conectadas.
+
+ctrl+a X
+
+Cierra la región en la que estamos actualmente.
+
+
+
+## Salir del Screen
+ctrl-a d
+
+Cierra la sesión pero esta trabajando en segundo plano.
+
+exit
+
+Se cierra la venta actual hasta que cerrando todas se cierra la sesión.
+
+
+
+## Modo Multiusuario
+
+Una de las utilidades más importante del comando screen es la posibilidad de que puedan trabajar varios usuarios, por eso vamos a ver los comandos para ver como se trabaja con el modo multiusuario.
+
+ctrl+a :multiuser on
+
+Activa el modo multiusuario.
+
+ctrl+a :multiuser off
+
+Sales del multiusuario de una sesión.
+
+ctrl+a :acladd (usuarios)
+
+La lista de usuarios puede ser uno o varios nombres de usuarios.
+
+ctrl+a :aclchg nombreusuario +|- rwx “#”
+
+Le agregamos(+) o quitamos(-) los permisos de escritura y le asignamos la ventana (# es igual a todas las ventas)
+
+Ctrl+a * 
+
+Ves los usuarios conectados y los permisos.
+
+## Gracias por leer este artículo. Un saludo
