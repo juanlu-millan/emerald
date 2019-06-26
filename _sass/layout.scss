@@ -165,13 +165,14 @@ a {
 #header {
 	text-align: center;
 	position: relative;
+	background-image: url(img/portada.png);
   a {
   	text-decoration: none;
   	color: $text-color;
   	display: inline-block;
   }
   img {
-  	width: 40%;
+  	width: 100%;
   	margin: 0 auto;
   	display: block;
   }
