@@ -158,7 +158,7 @@ a {
 
 #container {
 	margin:0 auto;
-	width: 100%;
+	width: 85%;
 	padding: 0 1.5rem;
 }
 
@@ -271,6 +271,11 @@ code {
 .right {
     float: right;
     width: 20%;
+    @media (min-width: 100%) {
+	    float: right;
+
+	}
+
 }
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
