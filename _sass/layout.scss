@@ -2,7 +2,7 @@
 
 /* Navigation */
 .nav{
- 	width: 300px;
+ 	width: 200px;
 	}
 #nav, #nav-left {
 
@@ -271,10 +271,9 @@ code {
 .right {
     float: right;
     width: 20%;
-    @media screen and (min-width: 100%) {
-	    float: right;
-
-	}
+  @media (min-width: 940px) {
+    position: static;
+  }
 
 }
 
