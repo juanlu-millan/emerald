@@ -271,7 +271,7 @@ code {
 .right {
     float: right;
     width: 20%;
-    @media (min-width: 100%) {
+    @media screen and (min-width: 100%) {
 	    float: right;
 
 	}
