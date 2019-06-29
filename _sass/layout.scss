@@ -74,11 +74,6 @@ a {
 			}
 
 /* Toggle class to open menu */
-@media screen and (max-width: 450px) {
-  div{
-	max-width: 100%;
-  }
-}
 
 #nav.menu-open {
   @include open(-12rem);
@@ -278,6 +273,9 @@ code {
 .right {
     float: right;
     width: 25%;
+    @media (max-width: 450px) {
+	width: 100%;
+    }
 }
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
