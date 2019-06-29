@@ -8,11 +8,11 @@ Existen distintas maneras de agrupar ficheros,imágenes o programas, veremos una
 ### Tar
 – Es un empaquetador de archivos que como su propio nombre indica utiliza el formato .tar, básicamente se utiliza para almacenar ficheros y directorios en un mismo archivo.
 
-#### Ejemplos:
+##### Ejemplos:
 
 tar -vcf /carpeta/archivos
 
-#### Opciones Básicas:
+##### Opciones Básicas:
 -c: Crea un nuevo fichero
 
 -v: visualiza el trabajo que realiza el comando
@@ -23,7 +23,7 @@ tar -vcf /carpeta/archivos
 
 -t: realiza un listado de los ficheros empaquetados     
 
-#### Sufijos:
+##### Sufijos:
 ```
 -j, –bzip2
 Comprime con el formato bzip2
@@ -44,10 +44,10 @@ Comprime con el formato lzip
 
 – Su extensión es .gz
 
-#### Ejemplo:
+##### Ejemplo:
 
 gz fichero.gz fichero
-#### Opciones:
+##### Opciones:
 -d: Se utiliza para descomprimir
 -f: Fuerza la compresión o descompresión, incluso si el archivo tiene varios enlaces o si ya existe el archivo.
 -l: Se utiliza para listar
@@ -59,12 +59,12 @@ gz fichero.gz fichero
 
 – En caso de descomprimir se utiliza unzip
 
-#### Ejemplo:
+##### Ejemplo:
 
 comprimir: zip -r carpeta.zip carpeta/
 
 descomprimir: unzip carpeta.zip
-#### Opciones:
+##### Opciones:
 
 -r: Realiza la compresión de manera recursiva, de esa manera podemos comprimir un directorio y sus ficheros.
 
@@ -82,9 +82,9 @@ descomprimir: unzip carpeta.zip
 – Este compresor esta bastante extendido pero uno de sus problemas es que no puede
 comprimir directorios y tiene que ayudarse del comando tar.
 
-#### Ejemplo:
+##### Ejemplo:
 xz archivo | xz -d archivo | xz -k (archivo o archivo.xz)
-#### Opciones:
+##### Opciones:
 -z: Realiza la compresión al formato .xz, al agregar la opción -z no puede utilizar más opciones de operación.
 
 -d: Descomprimir.
@@ -106,7 +106,7 @@ xz archivo | xz -d archivo | xz -k (archivo o archivo.xz)
 
 ➔ raw: Comprime y descomprime una secuencia sin encabezado.
 
-#### Comandos Alias
+##### Comandos Alias
 unxz es equivalente a xz –decompress .
 
 xzcat es equivalente a xz –decompress –stdout .
@@ -121,11 +121,11 @@ lzcat es equivalente a xz –format = lzma –decompress –stdout .
 #### Lzma
 El compresor LZMA utiliza una versión mejorada y optimizada del algoritmo de compresión LZ77, tiene una alta relación de compresión
 
-Ejemplo:
+##### Ejemplo:
 
 lzma -k archivo
 
-#### Opciones:
+##### Opciones:
 
 -f: Fuerza la compresión o descompresión
 -d: Descomprimir
@@ -136,9 +136,9 @@ lzma -k archivo
 ### Rar
 El RAR es más lento que el ZIP, pero posee una mayor tasa de compresión. Otra característica de RAR es que posee una mejor redundancia de datos que ZIP. Además, este formato permite lo que se conoce como compresión sólida que permite comprimir varios ficheros juntos, de forma que un mismo diccionario se aplica a toda la información, con lo que el nivel de compresión es mayor.
 
-#### Ejemplo:
+##### Ejemplo:
 rar directorio.rar directorio/
-#### Opciones:
+##### Opciones:
 •  a: Añade ficheros al archivo
 
 •  cw: Escribe un comentario de archivo en un archivo especificado.
@@ -154,12 +154,12 @@ rar directorio.rar directorio/
 ### 7z
 Es un formato de compresión de datos sin pérdida, con tasas muy altas que superan a las de los populares formatos zip y rar. El formato 7z permite el cifrado utilizando el algoritmo AES con claves de 256-bit. Estas claves son generadas por medio de una contraseña suministrada por el usuario.
 
-#### Ejemplo:
+##### Ejemplo:
 
 7z a directorio.7z directorio/
  
 
-#### Opciones:
+##### Opciones:
 
 • a: Añade ficheros al archivo
 
