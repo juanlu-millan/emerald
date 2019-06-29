@@ -74,6 +74,12 @@ a {
 			}
 
 /* Toggle class to open menu */
+@media screen and (max-width: 450px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+}
 
 #nav.menu-open {
   @include open(-12rem);
