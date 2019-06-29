@@ -75,8 +75,8 @@ a {
 
 /* Toggle class to open menu */
 @media screen and (max-width: 450px) {
-  .adaptar {
-	width: 100%;
+  div{
+	max-width: 100%;
   }
 }
 
