@@ -37,7 +37,9 @@ tags: ["Usuarios","Creación","Debian"]
 ##### Comprobación
 
 - Muestra de los usuarios creados
+
 ![comprobacion](/QuestTIC/img-post/batch/comprobacion.png))
 
 - Comprobación con un login de un usuario creados
+
 ![comprobacion](/QuestTIC/img-post/batch/login.png))
