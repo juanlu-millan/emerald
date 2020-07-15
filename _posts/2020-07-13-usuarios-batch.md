@@ -18,7 +18,7 @@ En este post veremos de manera sencilla y rápida como crear cusuarios por lotes
 - Una vez creado los usuarios vamos a crear las contraseñas con pwgen, creamos un for para introducir las contraseñas.
 
 <em>
- for i in {1..4};do echo alumno$i:`pwgen` >> contraseñanew ;done
+ for i in {1..4};do echo alumno$i:\`pwgen\` >> contraseñanew ;done
 </em>
 
 #####  Agregar usuarios con newusers
