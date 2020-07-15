@@ -43,4 +43,5 @@ En este post veremos de manera sencilla y rápida como crear cusuarios por lotes
 ![comprobacion](/QuestTIC/img-post/batch/comprobacion.png))
 
 - Comprobación con un login de un usuario.
+
 ![comprobacion](/QuestTIC/img-post/batch/login.png))
