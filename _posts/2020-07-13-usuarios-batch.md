@@ -1,5 +1,5 @@
 ---
-title: Creación batch de cuentas de usuario.
+title: Creación múltiple de cuentas de usuario en Debian.
 tags: ["Usuarios","Creación","Debian"]
 ---
 
@@ -9,32 +9,32 @@ En este post veremos de manera sencilla y rápida como crear cusuarios por lotes
 
 - Para crear este fichero tenemos que fijarnos en la estructura de nuestro passwd y con el comando for crearemos varios usuarios, lo añadimos a un fichero llamado usuariosnew para después sacar la información de dicho fichero.
 
-<pre>
+<em>
  for i in {1..4};do `echo alumno$i:x:121$i:121$i:alumno$i:/home/alumno$i:/bin/bash >> alumnosnew`;done
-</pre>
+</em>
 
 ##### Crear contraseñas con pwgen
 
 - Una vez creado los usuarios vamos a crear las contraseñas con pwgen, creamos un for para introducir las contraseñas.
 
-<pre>
+<em>
  for i in {1..4};do echo alumno$i:`pwgen` >> contraseñanew ;done
-</pre>
+</em>
 
 #####  Agregar usuarios con newusers
 
 - Ejecutamos el comando newusers (lee un fichero y utiliza la información para crear usuarios por lotes) con el fichero alumnosnew que hemos creado anteriormente.
 
-<pre>
+<em>
  newusers < usuariosnew
-</pre>
+</em>
 #####  Agregar contraseña a los usuarios creados
 
 - Ahora solo nos queda agregar las contraseñas con chpasswd a los usuarios correspondientes.
 
-<pre>
+<em>
   chpasswd < contraseñasnew
-</pre>
+</em>
 
 ##### Comprobación
 
