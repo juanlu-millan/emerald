@@ -7,7 +7,7 @@ En este post veremos de manera sencilla y rápida como crear cusuarios por lotes
 
 ##### Crear ficheros de usuarios
 
-- Para crear este fichero tenemos que fijarnos en la estructura de nuestro passwd y con el comando for crearemos varios usuarios, lo añadimos a un fichero llamado usuariosnew para después sacar la información de dicho fichero.
+- Para crear este fichero tenemos que fijarnos en la estructura de nuestro passwd y con el comando for crearemos varios usuarios, lo añadimos a un fichero llamado alumnosnew para después sacar la información de dicho fichero.
 
 <em>
  for i in {1..4};do `echo alumno$i:x:121$i:121$i:alumno$i:/home/alumno$i:/bin/bash >> alumnosnew`;done
